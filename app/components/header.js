@@ -4,9 +4,10 @@ import Image from 'next/image'
 const Header = () => {
   return (
     <div>
-        <img src='/flow.gif'
+        <Image src='/flow.gif'
             className='absolute z-10 right-[30px] top-[428px]'
-            quality={100} 
+            width={400}
+            height={400}
         />
         <div className='absolute bg-gradient-1 flex w-full h-[920px]'/>
         <div>

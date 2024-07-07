@@ -1,5 +1,6 @@
 import React from 'react'
 import { Lilita_One } from 'next/font/google'
+import Image from 'next/image';
 
 const lilita_one = Lilita_One ({ subsets:['latin'], weight:'400'});
 
@@ -12,8 +13,8 @@ const Kelas = () => {
         </div>
         <div className='grid md:flex justify-center items-center'>
             <div className='flex justify-center items-center'>
-                <img src='/Ara2.png' className='w-[80vh] hidden md:flex'/>
-                <img src='/nata2.png' className='w-[30vh] md:hidden'/>
+                <Image width={1000} height={1000} src='/Ara2.png' className='w-[80vh] hidden md:flex'/>
+                <Image width={1000} height={1000} src='/nata2.png' className='w-[30vh] md:hidden'/>
             </div>
             <div>
                 <ul>

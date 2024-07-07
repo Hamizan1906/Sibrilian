@@ -1,20 +1,10 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import Image from 'next/image'
 import { Lilita_One } from 'next/font/google'
 import Carousel from 'react-multi-carousel';
 import "react-multi-carousel/lib/styles.css";
 
 const lilita_one = Lilita_One({ subsets: ["latin"], weight: "400" });
-
-const foto = [
-  <img src='/sasa.png'/>,
-  <img src='/sasa.png'/>,
-  <img src='/sasa.png'/>,
-  <img src='/sasa.png'/>,
-  <img src='/sasa.png'/>,
-  <img src='/sasa.png'/>,
-  <img src='/sasa.png'/>,
-]
 
 const responsive = {
   superLargeDesktop: {
@@ -57,39 +47,39 @@ const Tim = () => {
             className='-z-0'
             >
               <div className='grid justify-center items-center text-center'>
-                <img src='/pakhambali.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/pakhambali.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Achmad Hambali, S.Pd., Gr.</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/sasa.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/sasa.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Sasa Widya</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/nata.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/nata.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Natasya Ayu Kirani</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/bila.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/bila.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Salsabila Puteri Abi Abdillah</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/ara.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/ara.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Asyara Thiara Ratnawati</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/lemon.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/lemon.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Filemon Ogawa Damar Adi Prasetyo</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/hamizan.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/hamizan.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Hamizan Ihkamuddin Raharjo</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/mahen.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/mahen.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Mahendra Surya Lista</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <img src='/rahid.png'></img>
+                <Image width={1000} height={1000} quality={100} src='/rahid.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Rahid Muhammad Sugiyarto</h1>
               </div>
             </Carousel>;
