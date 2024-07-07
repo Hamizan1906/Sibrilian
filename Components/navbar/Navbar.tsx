@@ -1,6 +1,6 @@
 'use client'
 import Link from 'next/link'
-import React, { act, useState } from 'react'
+import React, { useState } from 'react'
 import { Lilita_One } from 'next/font/google'
 import Image from 'next/image';
 

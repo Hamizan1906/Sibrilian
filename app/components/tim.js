@@ -1,3 +1,4 @@
+'use client'
 import React  from 'react'
 import Image from 'next/image'
 import { Lilita_One } from 'next/font/google'
@@ -30,7 +31,7 @@ const responsive = {
 
 const Tim = () => {
   return (
-    <div className='bg-gradient-5 w-full h-[660px] sm:h-[780px] lg:h-[840px]'>
+    <div className='bg-gradient-5 w-full h-[660px] sm:h-[780px] md:h-[880px] lg:h-[940px]'>
           <div className='flex justify-center items-center py-[60px]'>
               <h1 className={`${lilita_one.className} text-border-2 text-5xl md:text-6xl lg:text-7xl text-white`}>TIM LITERASI</h1>
           </div>
@@ -47,39 +48,39 @@ const Tim = () => {
             className='-z-0'
             >
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/pakhambali.png'></Image>
+                <Image width={700}  height={700} quality={100} src='/pakhambali.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Achmad Hambali, S.Pd., Gr.</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/sasa.png'></Image>
+                <Image width={700} height={700} quality={100} src='/sasa.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Sasa Widya</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/nata.png'></Image>
+                <Image width={700} height={700} quality={100} src='/nata.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Natasya Ayu Kirani</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/bila.png'></Image>
+                <Image width={700} height={700} quality={100} src='/bila.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Salsabila Puteri Abi Abdillah</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/ara.png'></Image>
+                <Image width={700} height={700} quality={100} src='/ara.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Asyara Thiara Ratnawati</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/lemon.png'></Image>
+                <Image width={700} height={700} quality={100} src='/lemon.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Filemon Ogawa Damar Adi Prasetyo</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/hamizan.png'></Image>
+                <Image width={700} height={700} quality={100} src='/hamizan.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Hamizan Ihkamuddin Raharjo</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/mahen.png'></Image>
+                <Image width={700} height={700} quality={100} src='/mahen.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Mahendra Surya Lista</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={1000} height={1000} quality={100} src='/rahid.png'></Image>
+                <Image width={700} height={700} quality={100} src='/rahid.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-2xl sm:text-3xl text-white`}>Rahid Muhammad Sugiyarto</h1>
               </div>
             </Carousel>;
