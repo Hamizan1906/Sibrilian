@@ -10,7 +10,7 @@ const NotFound = () => {
       <img src='/lemon2.png' className='w-[250px]'></img>
       <div className='text-white'>
         <h1 className={`${lilita_one.className}  text-border-2 text-4xl md:text-7xl`} >Waduh, tidak ditemukan..</h1>
-        <button className={`${lilita_one.className} w-[200px] h-[60px] md:w-[300px] md:h-[80px] border border-black rounded-[7px] bg-gradient-3 border-2 text-border-1 text-3xl md:text-5xl shadow-black/50 shadow-md hover:opacity-80 hover:transition`}>
+        <button className={`${lilita_one.className} w-[200px] h-[60px] md:w-[300px] md:h-[80px] border border-black rounded-[7px] bg-gradient-3 text-border-1 text-3xl md:text-5xl shadow-black/50 shadow-md hover:opacity-80 hover:transition`}>
           <a><Link href="/">Kembali</Link>
         </a></button>
       </div>
