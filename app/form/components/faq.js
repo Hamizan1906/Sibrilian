@@ -1,6 +1,5 @@
 'use client'
 import React, { useState } from 'react'
-import Image from 'next/image'
 import { Accordion, AccordionItem } from '@nextui-org/accordion'
 import { Lilita_One } from 'next/font/google'
 
