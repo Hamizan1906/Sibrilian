@@ -8,7 +8,7 @@ const lilita_one = Lilita_One({ subsets: ["latin"], weight: "400" });
 
   
 
-const navbar = () => {
+const Navbar = () => {
   let [isClick, setIsClick] = useState(false);
 
   const toggleNavbar = () => {
@@ -53,4 +53,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

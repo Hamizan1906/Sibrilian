@@ -64,7 +64,7 @@ const Tim = () => {
                 <h1 className={`${lilita_one.className} text-border-2 text-xl sm:text-3xl text-white`}>Salsabila Puteri Abi Abdillah</h1>
               </div>
               <div className='grid justify-center items-center text-center'>
-                <Image width={700} height={700} quality={100} src='/ara.png'></Image>
+                <Image width={700} height={700} quality={100} src='/Ara.png'></Image>
                 <h1 className={`${lilita_one.className} text-border-2 text-xl sm:text-3xl text-white`}>Asyara Thiara Ratnawati</h1>
               </div>
               <div className='grid justify-center items-center text-center'>

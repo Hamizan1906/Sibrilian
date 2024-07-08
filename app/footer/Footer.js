@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className='flex bg-black w-full h-[200px] text-white justify-center items-center md:gap-[70px]'>
       <Image width={200} height={100} alt='logo' src='/logo_white.png' className='px-5 md:mb-0 flex justify-center items-center'/>
@@ -10,4 +10,4 @@ const footer = () => {
   )
 }
 
-export default footer
+export default Footer
