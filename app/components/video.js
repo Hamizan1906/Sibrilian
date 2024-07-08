@@ -19,7 +19,7 @@ const Video = () => {
                     src='https://www.youtube.com/embed/-9cAOPSoab8'
                     frameBorder='0'
                     allowFullScreen
-                    className='flex justify-center items-center w-[400px] h-[230px] sm:w-[600px] sm:h-[330px] md:w-[800px] md:h-[500px] lg:w-[1237px] lg:h-[805px] rounded-3xl border border-white border-[5px]  '
+                    className='flex justify-center items-center w-[320px] h-[190px] sm:w-[600px] sm:h-[330px] md:w-[800px] md:h-[500px] lg:w-[1237px] lg:h-[805px] rounded-3xl border border-white border-[5px]  '
                 />
             </div>
         </div>

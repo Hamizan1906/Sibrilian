@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import Link from 'next/link'
 import React, { useState } from 'react'
 import { Lilita_One } from 'next/font/google'
@@ -35,7 +35,7 @@ const navbar = () => {
           </ul>
         </div>
         <div className='mr-10 flex gap-5'>
-          <button className={`${lilita_one.className} w-[200px] h-[60px] border border-black rounded-[7px] bg-gradient-7 border-2 text-border-1 text-2xl shadow-black/50 shadow-md hover:opacity-80 hover:transition`}>KIRIM KARYA</button>
+          <button className={`${lilita_one.className} w-[170px] h-[60px] border border-black rounded-[7px] bg-gradient-7 border-2 text-border-1 text-xl shadow-black/50 shadow-md hover:opacity-80 hover:transition`}>KIRIM KARYA</button>
           <Image
           src='/dots.png'
           width={15}
