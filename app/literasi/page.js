@@ -1,10 +1,12 @@
-'use client'
 import React from 'react'
+import CardList from './components/CardList'
+import Header from './components/Header'
 
 const literasi = () => {
   return (
-    <div className='bg-black w-full h-[1080px] flex justify-center items-center'>
-      <h1 className='text-white text-3xl'>Server Maintenance</h1>
+    <div className='bg-gradient-5 pb-16'>
+      <Header/>
+      <CardList/>
     </div>
   )
 }
